@@ -78,6 +78,7 @@ img.bottom-left {
   flex-direction: row-reverse;
   position: absolute;
   bottom: 0;
+  gap: 66px;
 }
 .menus img {
   width: 31.5%;
