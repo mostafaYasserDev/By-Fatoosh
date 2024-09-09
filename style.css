@@ -71,11 +71,13 @@ img.bottom-left {
   width: 50%;
 }
 .menus {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  flex-direction: row-reverse;
   position: absolute;
   bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
 }
 .menus img {
   width: 31.5%;
@@ -87,13 +89,9 @@ img.bottom-left {
   color: white;
 }
 .menus a.menu {
-  position: absolute;
-  bottom: -5px;
   display: flex;
   justify-content: center;
   align-items: end;
-  width: 100%;
-  height: 100%;
 }
 a.menu.en-text {
   left: -28%;
@@ -205,7 +203,7 @@ Desktop: Around 1024px or wider (for larger screens) */
     height: 84%;
   }
 }
-@media only screen and (min-width: 1351px) {
+@media only screen and (min-width: 1351px) and (max-width: 1620px) {
   a.menu.en-text span {
     left: 23px;
   }
@@ -240,5 +238,42 @@ Desktop: Around 1024px or wider (for larger screens) */
   }
   div.foods {
     height: 84%;
+  }
+}
+@media only screen and (min-width: 1621px) {
+  a.menu.en-text span {
+    left: 23px;
+  }
+  a.menu.ar-text span {
+    right: 23px;
+  }
+  a.menu span {
+    bottom: 50px;
+    font-size: 26px;
+  }
+  .logo img:first-child {
+    width: 30%;
+  }
+  .logo img:last-child {
+    width: 550px;
+  }
+  img.top-left {
+    width: 24.35%;
+  }
+  img.top-right {
+    width: 17%;
+  }
+  img.bottom-right {
+    width: 15%;
+  }
+  img.bottom-left {
+    width: 20%;
+    bottom: -50px;
+  }
+  .menus img {
+    width: 12.5%;
+  }
+  div.foods {
+    height: 88%;
   }
 }
