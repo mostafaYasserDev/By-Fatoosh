@@ -278,8 +278,3 @@ Desktop: Around 1024px or wider (for larger screens) */
     height: 88%;
   }
 }
-@media only screen and (max-height: 790px) {
-  div.foods {
-    height: 95%;
-  }
-}
