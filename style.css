@@ -144,7 +144,7 @@ Desktop: Around 1024px or wider (for larger screens) */
     width: 40.5%;
   }
   div.foods {
-    height: 82%;
+    height: 77%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
