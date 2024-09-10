@@ -1,11 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+
 @font-face {
-  font-family: "GE Dinar One";
-  src: url("fonts/GE-Dinar-One-Light-ar.otf") format("otf");
-  font-weight: 100;
-}
-@font-face {
-  font-family: "Acumin Pro";
-  src: url("fonts/FontsFree-Net-Acumin-Pro-Light.ttf") format("ttf");
+  font-family: "Tamil Sangam MN";
+  src: url("fonts/TamilSangamMN.ttc") format("ttc");
   font-weight: 100;
 }
 
@@ -77,8 +74,8 @@ img.bottom-left {
   align-items: end;
   flex-direction: row-reverse;
   position: absolute;
-  bottom: 0;
-  gap: 66px;
+  bottom: -3px;
+  gap: 60px;
 }
 .menus img {
   width: 31.5%;
@@ -106,12 +103,17 @@ a.menu span {
   font-size: 22px;
 }
 a.menu.ar-text span {
-  font-family: "GE Dinar One", sans-serif;
+  font-family: "Tajawal", sans-serif;
   right: 14px;
+  font-weight: 100;
+  opacity: 0.9;
 }
 a.menu.en-text span {
-  font-family: "Acumin Pro", sans-serif;
+  font-family: "Tajawal", sans-serif;
+  font-weight: 100;
+  opacity: 0.9;
   left: 15px;
+  letter-spacing: 3px;
 }
 
 /* Mobile: Around 320px to 480px (for smaller smartphones)
