@@ -280,3 +280,37 @@ Desktop: Around 1024px or wider (for larger screens) */
     height: 88%;
   }
 }
+
+@media only screen and (max-height: 480px) and (orientation: landscape) {
+  .logo img:first-child {
+    width: 30%;
+  }
+  .logo img:last-child {
+    width: 40%;
+  }
+  div.foods {
+    height: 95%;
+  }
+  img.top-left {
+    width: 20.35%;
+  }
+  img.bottom-left {
+    width: 19%;
+  }
+  img.top-right {
+    width: 16%;
+  }
+  img.bottom-right {
+    width: 16%;
+    bottom: 25px;
+  }
+  .menus img {
+    width: 15.5%;
+  }
+  a.menu span {
+    font-size: 17px;
+  }
+  a.menu.en-text span {
+    left: 14px;
+  }
+}
